@@ -5,7 +5,7 @@ class VkManga:
 
     def __init__(self, domain):
         self.domain = domain
-        self.token = "e7cca2cae7cca2cae7cca2ca91e4de0a5aee7cce7cca2ca84205ca8d376861e2321bb3a"
+        self.token = "#"
         self.version = 5.131
         self.offset = 1
         self.response = None
@@ -55,7 +55,7 @@ class VkManga:
 
 
 if __name__ == "__main__":
-    groups = ("bb_manga", "player_10000year", "darkfraction")
+    groups = ("#", "#", "#")
     for group in groups:
         post = VkManga(group)
         post.get_data()
